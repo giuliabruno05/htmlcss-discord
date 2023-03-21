@@ -35,7 +35,7 @@ header{
 .logo{ 
     height: 25px;
     margin-top: 10px;
-    width: 200px;
+    width: 180px;
     
 }
 
@@ -51,6 +51,7 @@ header{
 
 nav{ 
     margin-top: 10px;
+    line-height: 25px;
 }
 
 .hero{ 
@@ -81,35 +82,61 @@ nav{
 }
 
 h2{ 
-    font-size: 30px;
+    font-size: 33px;
+    margin-bottom: 10px;
+
     
 }
 
-img{ 
-    width: 70%;
+h4{ 
+    background-image: url(../img/stars.svg);
+    font-size: 14px;
+    line-height: 60px;
+    height: 30px;
+    background-size: contain;
+    margin: auto;
+    width: 280px
+}
+.container{ 
+    display: flex;
+    gap: 10px;
 }
 
+
+.image{ 
+    width: 70%;
+    margin-top: 30px;
+}
+
+img{ 
+    width: 100%;
+}
 
 .text{ 
-    margin-top: 20px;
     width: 30%;
-    font-size: 13px;
+    margin-top: 60px;
+    bottom: 100px;
 }
 
+
+
 p{ 
-    line-height: 15px;
+    line-height: 20px;
     margin-top: 15px;
+    font-size: 14px;
 }
 
 
 
 .grey{
     background-color:rgba(246,246,246,255);
+   
     
 }
 
 .container.reverse{ 
     flex-direction: row-reverse;
+
     
 }
 .last-section{
@@ -118,15 +145,22 @@ p{
     
 }
 
-.text-main{
-    font-size: 13px;
+
+.items-main{ 
+    margin-top: 30px;
     
 
 }
-.star{ 
-    width: 30%;
+.text-main{
+    font-size: 15px;
+    margin-top: 10px;
+    
+    
 
 }
+
+
+
 
 
 
@@ -147,6 +181,16 @@ footer{
 .column{ 
     line-height: 30px;
     
+    
+    
+}
+
+.emoji{ 
+    display: flex;
+    gap: 15px;
+}
+span{ 
+    font-size: 12px;
     
 }
 
@@ -177,11 +221,17 @@ footer{
 .blu{ 
     background-color: rgba(114,137,218,255);
     color: white;
+    
 }
 
+.section-button{ 
+    margin-top: 30px;
+}
 
-
-
+.bandiera{ 
+    width: 20px;
+    margin-right: 5px;
+}
 
 
 
