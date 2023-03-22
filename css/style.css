@@ -83,7 +83,7 @@ nav{
     width: 70%;
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    
     gap: 20px;
 
 }
@@ -243,8 +243,12 @@ span{
 
 
 
-
-
+ .wave{ 
+    transform: rotate(180deg);
+ }  
+.waves{ 
+    margin-bottom: -10px;
+}
 
 
 
